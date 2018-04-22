@@ -30,7 +30,7 @@ lazy val twitterDeps = Seq(
     "com.twitter" %% "finagle-thrift" % twitterVersion exclude("com.twitter", "libthrift"),
     "com.twitter" %% "finagle-mux" % twitterVersion,
     "com.twitter" %% "finagle-thriftmux" % twitterVersion,
-    "com.twitter" %% "finagle-zipkin" % twitterVersion
+    "com.twitter" %% "finagle-zipkin" % "18.2.0"
   )
 )
 
